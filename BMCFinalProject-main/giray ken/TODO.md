@@ -1,0 +1,3 @@
+- [x] Edit giray ken/lib/screens/login_screen.dart: Add Navigator.of(context).pop(); after successful login.
+- [x] Edit giray ken/lib/screens/signup_screen.dart: Add Navigator.of(context).pop(); after successful signup.
+- [x] Test the app to ensure tapping login/signup navigates to home page.

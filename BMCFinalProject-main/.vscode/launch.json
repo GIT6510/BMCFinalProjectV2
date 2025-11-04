@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "giray ken",
+            "cwd": "giray ken",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "giray ken (profile mode)",
+            "cwd": "giray ken",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "giray ken (release mode)",
+            "cwd": "giray ken",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}

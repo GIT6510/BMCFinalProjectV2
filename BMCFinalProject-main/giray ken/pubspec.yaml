@@ -1,0 +1,61 @@
+name: ecommerce_app
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  firebase_core: ^4.2.1
+  flutter_native_splash: 2.4.0
+  firebase_auth: ^6.1.1
+  cloud_firestore: ^6.0.3
+  provider: ^6.1.5+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/logo.png
+
+flutter_native_splash:
+  # Background color for the splash screen
+  color: "#FFFFFF"
+  
+  # Image to display in the center of the splash screen
+  image: assets/images/logo.png
+  
+  # Splash screen background color for Android 12
+  android_12:
+    # Background color
+    color: "#FFFFFF"
+    # Splash screen image
+    image: assets/images/logo.png
+    # Splash screen icon background color
+    icon_background_color: "#FFFFFF"
+    # Optional branding image at the bottom
+    branding: assets/images/logo.png
+    
+  # Enable splash screen for web
+  web: true
+  
+  # Control splash screen behavior
+  android: true
+  ios: true
+  web_image_mode: center
+  
+  # Full screen splash
+  fullscreen: true
