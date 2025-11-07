@@ -36,20 +36,20 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // 1. MaterialApp is the root of your app
+    
     return MultiProvider(
       providers: [
-        // 2. Provide the CartProvider to the entire app
+        
         ChangeNotifierProvider(create: (_) => CartProvider()),
       ],
       child: MaterialApp(
-        // 2. This removes the "Debug" banner
+        
         debugShowCheckedModeBanner: false,
         title: 'eCommerce App',
         theme: ThemeData(
           primarySwatch: Colors.deepPurple,
         ),
-        // 3. A simple placeholder for our home screen
+        
         home: const AuthWrapper(),
       ),
     );
